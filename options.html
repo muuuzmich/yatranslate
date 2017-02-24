@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Options</title>
+	<link rel="stylesheet" href="css/options.css">
+</head>
+<body>
+	<div class="page_align">
+		<div class="container">
+			<div class="option__text">Select your language:</div>
+			<div class="dropdown">
+				<input class="dropdown-toggle" type="text">
+				<div class="dropdown-text" data-language="ru">Русский</div>
+				<ul class="dropdown-content">
+					<li><span class="item" data-language="ru">Русский</span></li>
+					<li><span class="item" data-language="en">English</span></li>
+					<li><span class="item" data-language="uk">Українська</span></li>
+					<li><span class="item" data-language="de">Deutch</span></li>
+				</ul>
+			</div>
+			<div id="status">Options saved.</div>
+			<button id="save">Save</button>
+
+		</div>
+	</div>
+	<script src="jquery-2.2.3.min.js"></script>
+	<script src="options.js"></script>
+</body>
+</html>
